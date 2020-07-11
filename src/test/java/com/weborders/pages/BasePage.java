@@ -13,6 +13,9 @@ public abstract class BasePage {
 
         PageFactory.initElements(Driver.getDriver(), this);
 
+        //base page is like a basement for the login page,where you can have wait object and pagefactory
+        //which will initialise Driver.getDriver() method.
+
     }
 
 
